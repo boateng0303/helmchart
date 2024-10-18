@@ -1,0 +1,10 @@
+---
+repositories:
+  - name: hello
+    url: git+https://github.com/boateng0303/helmchart.git
+
+releases:
+  - name: hellorelease
+    chart: helmchart/hello
+    installed: yes
+    
